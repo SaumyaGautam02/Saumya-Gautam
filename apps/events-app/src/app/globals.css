@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* dotted background like your mock */
+.dotted-bg {
+  background-color: #ffffff;
+  background-image: radial-gradient(#e6e9eb 1px, transparent 1px);
+  background-size: 14px 14px;
+}
+
+/* small visual tweak to make the grey rows consistent */
+.event-row {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
